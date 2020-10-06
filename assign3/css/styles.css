@@ -1,0 +1,60 @@
+.navbar-default {
+	background-color: #C0C0C0;
+	border-radius: 0;
+  	border: 2px solid black;
+	color: black;
+}
+
+.navbar-header {
+	padding-bottom: 30px;
+}
+
+.navbar-default .navbar-brand h1{
+	color: black;
+	font-family: 'Arvo', serifs;
+	font-weight: bold;
+	margin-top: 12px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #C0C0C0;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+	background-color: #C0C0C0;
+	color: white;
+}
+
+.container-fluid {
+	background-color: #C0C0C0;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-bottom: 2.5%;
+
+}
+
+.li.visible-xs.active.text-center {
+	border-color: black;
+	border-width: 5px;
+}
+
+h2 {
+	font-family: 'Arvo', serifs;
+	font-weight: bold;
+	padding-bottom: 7px;
+
+}
+
+
+@media (max-width: 767px) {
+	.container {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
