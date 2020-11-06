@@ -1,0 +1,17 @@
+
+<div class="col-md-12 col-lg-12 col-md-12" style="color:darkblue;">
+
+	<ol>
+		<h4>
+			<li ng-repeat="item in found" style="font-family:Verdana, sans-serif;padding-bottom:25px;">
+			Dish : {{item.name}}<br>
+			<button class="btn btn-info" style="float:right; border-color: black; padding-left: 5px" ng-click="onRemove({index: $index});">
+			Don't want this one</button>
+			Code: {{item.short_name}}<br>
+			Description: {{item.description}} <br>
+		</li>
+	</h4>
+</ol>
+
+<p class="alert alert-info" ng-if="isEmpty">Nothing found</p>
+</div>
