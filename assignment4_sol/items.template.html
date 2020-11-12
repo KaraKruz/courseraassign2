@@ -1,0 +1,7 @@
+<a ui-sref="home" class="ng-scope" href="#/">Menu<a>
+<span class="ng-scope">||</span>
+<a ui-sref="categoryList" class="ng-scope" href="#/category-list">Category</a>
+
+    <ul>
+        <li ng-repeat="item in itemsCtrl.items.menu_items">{{item.name}}</li>
+    </ul>
