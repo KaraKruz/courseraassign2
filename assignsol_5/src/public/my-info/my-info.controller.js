@@ -10,6 +10,7 @@
 		var $ctrl = this;
 		$ctrl.userPref = SignUpDataService.getUserPref();
 		$ctrl.basePath = ApiPath;
+
 	}
 
 }) ();
