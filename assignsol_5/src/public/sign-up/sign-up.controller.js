@@ -13,7 +13,7 @@
 			shortNames.push(menuItems.menu_items[i].short_name.toLowerCase() + "");
 		}
 
-		$ctrl.validateFavorite = function () {
+		$ctrl.validateFavourite = function () {
 			if ($ctrl.user != undefined && $ctrl.user.favourite != undefined) {
 				var favourite = $ctrl.user.favourite.toLowerCase();
 				if (shortNames.indexOf(favourite) != -1 ) {

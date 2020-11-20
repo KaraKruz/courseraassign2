@@ -37,6 +37,14 @@
 }
 /* END HOME PAGE */
 
+.sign-up-input {
+  color: black;
+}
+
+.sign-up-submit {
+  color: black;
+}
+
 /* MENU CATEGORIES PAGE */
 .category-tile {
   position: relative;
@@ -183,3 +191,4 @@ h3.menu-item-title {
     width: 100%;
   }
 }
+
