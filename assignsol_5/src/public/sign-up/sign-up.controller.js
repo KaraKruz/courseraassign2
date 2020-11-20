@@ -29,7 +29,7 @@
 			$ctrl.submit = function () {
 				MenuService.getMenuItemByShortName($ctrl.user.favourite).then(function(result) {
 					$ctrl.invalidDish = false;
-					$ctrl.user.favouritemMenuItem = result;
+					$ctrl.user.favouriteMenuItem = result;
 					SignUpDataService.setUserPref($ctrl.user);
 					$ctrl.saved = true; 
 				}, function(error) {
